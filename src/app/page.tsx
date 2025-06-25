@@ -2,6 +2,7 @@
 
 "use client"
 
+import Link from "next/link";
 import styles from "./page.module.css";
 import { useState } from "react";
 
@@ -17,6 +18,7 @@ export default function Home() {
            <h1>{ahmed}</h1>
          
        <h1>Ahmed Yasser</h1>
+       <Link href={'/login'}>LOGIN page</Link>
       </main>
     
     </div>
